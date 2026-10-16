@@ -1,43 +1,28 @@
-# MAYANK DIGITAL — 3D Digital Marketing Website
+# Mayank Digital — 3D Floating Glass Theme
 
-A five-page React + Vite website with a 3D hero, animated service cards, floating WhatsApp and Instagram buttons, and GitHub Pages deployment workflow.
-
-## Before publishing
-1. Edit `src/config.ts`.
-2. Replace `whatsappNumber` with your WhatsApp number including country code, digits only (India: start with `91`, no `+`).
-3. Replace `instagramUrl` with your real Instagram profile.
-4. Optionally change email and other social URLs.
-5. Do not publish placeholders as your actual contact information.
+A dark-neon React + Vite landing page with animated floating glass objects, CSS 3D cube, glass orb, holographic orbit rings, floating ad dashboard, performance chart, and responsive marketing sections.
 
 ## Run locally
-Install Node.js 20 or newer, then run:
+
 ```bash
 npm install
 npm run dev
 ```
 
-Test production build:
+## Build for GitHub Pages
+
 ```bash
 npm run build
-npm run preview
 ```
 
-## Upload to GitHub
-Create a repository named `mayank-digital-website`. Upload the contents of this folder, including the hidden `.github` folder. The workflow must be at `.github/workflows/deploy.yml`.
+The Vite base path is configured as `/mayank-digital-website/` for the repository Pages URL. If your repository name changes, update `base` in `vite.config.js`.
 
-## Enable GitHub Pages
-Repository → Settings → Pages → Build and deployment → Source: **GitHub Actions**.
-Push to the `main` branch. In the Actions tab, wait for the deploy workflow to succeed.
+## Before publishing
 
-## Custom domain: webmayank.site
-This project includes `public/CNAME` containing `webmayank.site`.
-In repository Settings → Pages, set the custom domain to `webmayank.site`.
-At your DNS provider, configure the apex A records listed in GitHub's official Pages documentation. To use `www`, add a CNAME pointing to `YOUR-GITHUB-USERNAME.github.io`.
-Keep email/MX records intact. DNS may take time to update. Enable HTTPS in Pages settings once available.
+- Replace the sample email `hello@mayankdigital.example` in `src/main.jsx` with your real business email.
+- Review service copy and add real contact details.
+- This starter does not include made-up customer testimonials or guaranteed ad results.
 
-## Notes
-- Routing uses HashRouter, so internal pages work on GitHub Pages.
-- WhatsApp opens a prefilled message; the visitor must send it.
-- The SEO request and contact forms open WhatsApp; no server/database is included.
-- Instagram is a profile link only. Live inbox or analytics requires authorized API integration.
-- This project uses free/open-source dependencies. Google Fonts requires an internet connection; fallback fonts are included.
+## Add to your existing repository
+
+Back up your current project first. Copy the `src` folder, `index.html`, and `vite.config.js` into your existing project. Merge rather than blindly overwrite any existing configuration you need. Then run `npm install` and `npm run build`.
