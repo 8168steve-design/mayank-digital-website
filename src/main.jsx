@@ -1,13 +1,10 @@
 import React from 'react'
 import { createRoot } from 'react-dom/client'
-import { BrowserRouter } from 'react-router-dom'
-import App from './App.jsx'
 import './styles.css'
-
-createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <BrowserRouter basename="/mayank-digital-website">
-      <App />
-    </BrowserRouter>
-  </React.StrictMode>
-)
+function App() {
+  return <main className="page">
+    <img className="mockup" src={`${import.meta.env.BASE_URL}mayank-river-mountain-mockup.png`} alt="Mayank Digital website design with photorealistic mountains, floating islands, a flowing turquoise river, waterfalls and glass service cards" />
+    <div className="mobile-note">For the closest match to the supplied design, this preview uses the complete reference composition as one responsive image.</div>
+  </main>
+}
+createRoot(document.getElementById('root')).render(<App />)
