@@ -1,28 +1,17 @@
-# Mayank Digital — 3D Floating Glass Theme
+# Mayank Digital — 3D Floating Theme
 
-A dark-neon React + Vite landing page with animated floating glass objects, CSS 3D cube, glass orb, holographic orbit rings, floating ad dashboard, performance chart, and responsive marketing sections.
+React + Vite starter theme with dark navy styling, neon blue/purple accents, floating visual elements, and digital marketing sections.
 
 ## Run locally
 
-```bash
-npm install
-npm run dev
-```
+1. Install Node.js (LTS).
+2. Open a terminal in this folder.
+3. Run `npm install`.
+4. Run `npm run dev`.
+5. For a production build, run `npm run build`.
 
-## Build for GitHub Pages
+## GitHub Pages
 
-```bash
-npm run build
-```
+`vite.config.js` is configured with `base: '/mayank-digital-website/'` for the repository `8168steve-design/mayank-digital-website`.
 
-The Vite base path is configured as `/mayank-digital-website/` for the repository Pages URL. If your repository name changes, update `base` in `vite.config.js`.
-
-## Before publishing
-
-- Replace the sample email `hello@mayankdigital.example` in `src/main.jsx` with your real business email.
-- Review service copy and add real contact details.
-- This starter does not include made-up customer testimonials or guaranteed ad results.
-
-## Add to your existing repository
-
-Back up your current project first. Copy the `src` folder, `index.html`, and `vite.config.js` into your existing project. Merge rather than blindly overwrite any existing configuration you need. Then run `npm install` and `npm run build`.
+This is a starter theme. Before replacing an existing repository, back it up and merge files carefully. Keep the repository's working GitHub Actions workflow and verify `npm run build` before committing.

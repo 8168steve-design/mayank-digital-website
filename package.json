@@ -1,4 +1,3 @@
-
 {
   "name": "mayank-digital-3d-theme",
   "private": true,
@@ -15,6 +14,5 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "lucide-react": "^0.468.0"
-  },
-  "devDependencies": {}
+  }
 }
