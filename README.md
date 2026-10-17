@@ -1,17 +1,17 @@
-# Mayank Digital — 3D Floating Theme
+# Mayank Digital — River & Mountain Theme
 
-React + Vite starter theme with dark navy styling, neon blue/purple accents, floating visual elements, and digital marketing sections.
+A React + Vite landing page with a CSS/SVG animated glowing river, floating mountain islands, waterfalls, neon cyan/purple accents, and glass cards.
 
-## Run locally
+## GitHub Pages upload
+1. Extract this ZIP on your computer.
+2. Upload the contents to the root of your existing `mayank-digital-website` repository (not the containing folder).
+3. Keep `.github/workflows` from your existing repository if you already have a working Pages deployment workflow.
+4. Commit the changes and wait for the GitHub Actions green check.
+5. Visit `https://8168steve-design.github.io/mayank-digital-website/` and hard refresh.
 
-1. Install Node.js (LTS).
-2. Open a terminal in this folder.
-3. Run `npm install`.
-4. Run `npm run dev`.
-5. For a production build, run `npm run build`.
-
-## GitHub Pages
-
-`vite.config.js` is configured with `base: '/mayank-digital-website/'` for the repository `8168steve-design/mayank-digital-website`.
-
-This is a starter theme. Before replacing an existing repository, back it up and merge files carefully. Keep the repository's working GitHub Actions workflow and verify `npm run build` before committing.
+## Important
+- This is a complete starter project, not a patch for the existing multi-page project.
+- `vite.config.js` and `src/main.jsx` use `/mayank-digital-website/` as the GitHub Pages base path.
+- The river is animated with CSS/SVG strokes. The mountain/island scene is stylized CSS art rather than a pre-rendered image.
+- The WhatsApp link in `src/App.jsx` is a placeholder (`https://wa.me/`). Replace it with your official business number before publishing.
+- Do not upload `node_modules`.

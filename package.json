@@ -1,5 +1,5 @@
 {
-  "name": "mayank-digital-3d-theme",
+  "name": "mayank-digital-river-mountain",
   "private": true,
   "version": "1.0.0",
   "type": "module",
@@ -10,9 +10,12 @@
   },
   "dependencies": {
     "@vitejs/plugin-react": "^4.3.4",
-    "vite": "^5.4.14",
+    "framer-motion": "^11.15.0",
+    "lucide-react": "^0.468.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "lucide-react": "^0.468.0"
-  }
+    "react-router-dom": "^6.28.1",
+    "vite": "^5.4.14"
+  },
+  "devDependencies": {}
 }
